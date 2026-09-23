@@ -1,0 +1,5 @@
+# Your settings (created from config.example.json on first run)
+config.json
+
+# Build output - attach Awake.exe to a GitHub Release instead of committing it
+*.exe

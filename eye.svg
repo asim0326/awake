@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <!-- Awake icon. Edit this file, then run make-icon.ps1 to rebuild eye.ico. -->
+  <defs>
+    <clipPath id="eye">
+      <path d="M14 128 C 58 44, 198 44, 242 128 C 198 212, 58 212, 14 128 Z"/>
+    </clipPath>
+  </defs>
+  <!-- white of the eye -->
+  <path d="M14 128 C 58 44, 198 44, 242 128 C 198 212, 58 212, 14 128 Z" fill="#FFFFFF"/>
+  <!-- iris, pupil and highlight, clipped to the eye shape -->
+  <g clip-path="url(#eye)">
+    <circle cx="128" cy="128" r="58" fill="#0EA5E9"/>
+    <circle cx="128" cy="128" r="58" fill="none" stroke="#0369A1" stroke-width="10"/>
+    <circle cx="128" cy="128" r="27" fill="#0F172A"/>
+    <circle cx="148" cy="108" r="12" fill="#FFFFFF"/>
+  </g>
+  <!-- outline, drawn last so it sits on top -->
+  <path d="M14 128 C 58 44, 198 44, 242 128 C 198 212, 58 212, 14 128 Z"
+        fill="none" stroke="#1E293B" stroke-width="18" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,17 @@
+{
+    "_comment": "Awake settings. Awake copies this file to config.json on first run; edit config.json, then use 'Reload settings' in the tray menu. See README.md.",
+
+    "idleSeconds":       180,
+    "checkSeconds":      30,
+    "nudgePixels":       1,
+    "preventSleep":      true,
+    "startOnline":       false,
+    "showNotifications": true,
+
+    "icon":         "eye.ico",
+    "appName":      "Awake",
+    "onlineText":   "Online",
+    "offlineText":  "Offline",
+    "onlineColor":  "Green",
+    "offlineColor": "Red"
+}
