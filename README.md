@@ -1,6 +1,6 @@
 # Awake
 
-A tiny Windows tray app that keeps your PC awake, and your Teams or Slack status on **Available**, while you're away from the keyboard.
+A tiny Windows tray app that keeps your PC awake, so that your agents keep running.
 
 <img src="docs/menu.png" width="155" alt="Awake tray menu">
 
